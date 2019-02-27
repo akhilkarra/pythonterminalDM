@@ -11,11 +11,11 @@ clear()
 # Log user in
 login()
 
-# Print username
-print(login.useraccount)
-
 # Create or join a room?
 op = input("Enter C to create a room or J to join a room: ")
+
+clear()
+
 # If creating
 if op == "C":
     roomname = input("Name your room: ")
