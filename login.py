@@ -80,7 +80,7 @@ def login():
     print("Access Granted")
 
     # Clear screen
-    time.sleep(5)
+    time.sleep(3)
     clear()
 
     # Set function attributes for user account and admin account
