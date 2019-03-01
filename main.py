@@ -2,7 +2,6 @@
 
 # Import functions from other files
 from login import *
-from clearscreen import *
 from pychatkit import *
 
 # Clear the screen
@@ -14,6 +13,7 @@ login()
 # Create or join a room?
 op = input("Enter C to create a room or J to join a room: ")
 
+# Clear screen
 clear()
 
 # If creating
