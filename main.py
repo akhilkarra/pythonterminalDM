@@ -3,8 +3,9 @@
 # Import functions from other files
 from login import *
 from pychatkit import *
+from clearscreen import *
 
-# Clear the screen
+# Clear screen
 clear()
 
 # Log user in
