@@ -4,7 +4,6 @@
 from login import *
 from pychatkit import *
 from clearscreen import *
-import time
 
 # Clear screen
 clear()
@@ -16,7 +15,6 @@ login()
 op = input("Enter C to create a room or J to join a room: ")
 
 # Clear screen
-time.sleep(5)
 clear()
 
 # If creating...

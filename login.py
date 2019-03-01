@@ -2,6 +2,7 @@
 
 # Import clear screen function
 from clearscreen import *
+import time
 
 def login():
     # Set variables for clean slate user account
@@ -79,6 +80,7 @@ def login():
     print("Access Granted")
 
     # Clear screen
+    time.sleep(5)
     clear()
 
     # Set function attributes for user account and admin account
