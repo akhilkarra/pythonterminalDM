@@ -1,5 +1,7 @@
 # --------- Terminal-based Social Media DM Platform: Login Function ------------
 
+# Import clear screen function
+from clearscreen import *
 
 def login():
     # Set variables for clean slate user account
@@ -71,9 +73,13 @@ def login():
             # Go back!
             passacc = pass1
             excode = 1
+            clear()
 
     # Access Granted!
     print("Access Granted")
+
+    # Clear screen
+    clear()
 
     # Set function attributes for user account and admin account
     login.useraccount = useracc
